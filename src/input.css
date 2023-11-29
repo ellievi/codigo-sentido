@@ -1,0 +1,43 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+hr {
+  border-color: #08DDB3;
+}
+
+.bg-gradient-purple {
+  background: linear-gradient(180deg, rgba(162, 124, 190, 0.30) 0%, rgba(162, 124, 190, 0.09) 99.97%, rgba(162, 124, 190, 0.09) 99.98%, rgba(162, 124, 190, 0.13) 99.99%, rgba(162, 124, 190, 0.13) 100%), #372B66;
+}
+
+.border-purple-350 {
+  border-color: #847BE1;
+}
+
+.bg-light-green {
+  background-color: #08DDB3;
+}
+
+.bg-light-gray {
+  background-color: #EBEEEE;
+}
+
+.bg-light-purple {
+  background-color: #E6E1EF;
+}
+
+.text-light-blue {
+  color: #91CDEF;
+}
+
+.text-light-green {
+  color: #08DDB3;
+}
+
+.text-light-purple {
+  color: #847BE1;
+}
+
+.text-shadow {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+};
