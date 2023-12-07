@@ -26,6 +26,10 @@ hr {
   background-color: #E6E1EF;
 }
 
+.bg-lightest-green {
+  background-color: rgba(8, 221, 179, 0.35);
+}
+
 .text-light-blue {
   color: #91CDEF;
 }
