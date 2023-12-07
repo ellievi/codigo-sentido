@@ -13,7 +13,9 @@ const Banner = () => {
         <h2 className="text-xl	text-slate-200">A Código sentido possui planos para auxiliar na expansão da educação tecnológica 
           à programação para deficientes visuais
         </h2>
-        <Button title="Ler mais sobre o projeto"/>
+          <a href="#sobre">
+          <Button title="Ler mais sobre o projeto"/>
+          </a>
       </div>
         <img
         className="max-w-lg"
