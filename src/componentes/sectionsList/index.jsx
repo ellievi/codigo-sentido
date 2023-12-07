@@ -1,12 +1,43 @@
 import React from "react";
-// import Button from "../button";
 import Section from "../section";
+import Card from "../card";
 
 const SectionList = () => {
+
+  const contentList = [
+    {
+      name: 'Conteúdo',
+      description: 'Descrição do site'
+    },
+    {
+      name: 'Conteúdo 2',
+      description: 'Descrição do site 2'
+    },
+    {
+      name: 'Conteúdo 3',
+      description: 'Descrição do site 3'
+    }
+]
+const webSitesList = [
+  {
+    name: 'Site',
+    description: 'Descrição do site'
+  },
+  {
+    name: 'Site 2',
+    description: 'Descrição do site 2'
+  },
+  {
+    name: 'Site 3',
+    description: 'Descrição do site 3'
+  }
+]
+
   return (
     <div>
       <Section
         sectionTitle="Sobre"
+        id="sobre"
         description={
         <div>
           O crescimento diário do uso da tecnologia em diversos setores mundiais resultou na maior demanda por profissionais 
@@ -33,25 +64,37 @@ const SectionList = () => {
         </div>
         }
         buttonTitle="Ir para lista de softwares"
+        link="/lista_de_softwares"
       />
 
       <Section
-        sectionTitle="Cursos"
+        sectionTitle="Conteúdos didáticos"
+        id="conteudos"
         description={
-        <div>
-          Esta seção possui cards contendo nome, descrição e botão de redirecionamento para o site de cursos 
-          gratuitos referentes à programação.
-          <br/>
-          Os cursos podem redirecionar para sites próprios ou playlists de youtube que contenham vídeos 
-          com teor educacional acerca de assuntos que envolvam tecnologia acessiva ou programação.
-        </div>
-        }
-        bgGrey
-        card
-      />
+          <div>
+            Esta seção possui cards contendo nome, descrição e botão de redirecionamento para o site de conteúdos 
+            didáticos referentes à programação.
+            <br/>
+            Os conteúdos didáticos podem redirecionar para sites próprios ou playlists de youtube que contenham 
+            vídeos com teor educacional acerca de assuntos que envolvam tecnologia acessiva ou programação.
+          </div>
+          }
+          bgGrey
+          >
+            <div className="grid grid-cols-3 gap-10 p-10">
+              {contentList.map(content => {
+                return <Card 
+                title={content.name} 
+                description={content.description} 
+                buttonTitle="Redirecionar ao site"
+                />
+              })}
+            </div>
+      </Section>
 
       <Section
         sectionTitle="Sites"
+        id="sites"
         description={
         <div>
           A seguir segue uma lista de card para sites que seguem como referência sobre acessibilidade tecnológica 
@@ -60,7 +103,17 @@ const SectionList = () => {
         </div>
         }
         card
-      />
+        >
+          <div className="grid grid-cols-3 gap-10 p-10">
+            {webSitesList.map(content => {
+              return <Card 
+              title={content.name} 
+              description={content.description} 
+              buttonTitle="Redirecionar ao site"
+              />
+            })}
+          </div>
+      </Section>
     </div>
   )
 }
