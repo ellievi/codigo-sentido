@@ -1,18 +1,20 @@
 import React from "react";
 import LogoCodigoSentido from '../../assets/logo_codigo_sentido.svg'
+import { Link } from "react-router-dom";
+import Search from "../search";
 
 const Menu = () => {
   return (
-    <div className="justify-between text-2xl text-white">
+    <div className="justify-between max-h-28 text-2xl text-white">
       <ul className="flex flex-row justify-center gap-16 py-8">
         <li>
-          Início
+          <Link to="/">Início</Link>    
         </li>
         <li>
-          Sobre
+          <a href="#sobre">Sobre</a>
         </li>
         <li>
-          Softwares
+          <Link to="/lista_de_softwares" onClick={window.history.pushState("", "", "/")}>Softwares</Link>          
         </li>
         <img
         className="w-72"
@@ -22,13 +24,13 @@ const Menu = () => {
         à direta escontra-se o símbolo de chave muito presente na matemática e possui a mesma cor da palavra ''código''."
         />
         <li>
-          Cursos
+          <a href="#conteudos">Conteúdos</a>
         </li>
         <li>
-          Sites
+          <a href="#sites">Sites</a>
         </li>
         <li>
-          Referências
+          <Search/>
         </li>
       </ul>
     </div>
