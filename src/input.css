@@ -22,12 +22,16 @@ hr {
   background-color: #EBEEEE;
 }
 
-.bg-light-purple {
+.bg-lightest-purple {
   background-color: #E6E1EF;
 }
 
 .bg-lightest-green {
   background-color: rgba(8, 221, 179, 0.35);
+}
+
+.bg-light-purple {
+  background-color: rgba(162, 124, 190, 0.3);
 }
 
 .text-light-blue {
