@@ -4,7 +4,7 @@ import Button from "../button";
 
 const Section = (props) => {
   return (
-    <section id={props.id} className={`flex flex-col text-center items-center p-4 ${props.bgGrey ? 'bg-light-gray' : 'bg-light-purple'}`}>
+    <section id={props.id} className={`flex flex-col text-center items-center p-4 ${props.bgGrey ? 'bg-light-gray' : 'bg-lightest-purple'}`}>
       <h3 className="p-4 text-4xl	text-light-purple font-semibold">{props.sectionTitle}</h3>
       <hr className="w-20"/>
       {props.description && (
