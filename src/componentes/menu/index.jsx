@@ -5,8 +5,8 @@ import Search from "../search";
 
 const Menu = () => {
   return (
-    <div className="justify-between max-h-28 text-2xl text-white">
-      <ul className="flex flex-row justify-center gap-16 py-8">
+    <div className="max-h-28 text-2xl text-white">
+      <ul className="flex flex-row justify-center gap-12 py-8">
         <li>
           <Link to="/">Início</Link>    
         </li>
