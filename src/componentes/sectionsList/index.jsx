@@ -1,35 +1,52 @@
 import React from "react";
 import Section from "../section";
 import Card from "../card";
+import Button from "../button";
 
 const SectionList = () => {
 
-  const contentList = [
+  const didaticContentsList = [
     {
-      name: 'Conteúdo',
-      description: 'Descrição do site'
+      name: 'CEaD IBC',
+      description: 'Canal com intuito divulgativo de ensino de tecnologia para deficientes visuais.',
+      contentLink: 'https://www.youtube.com/@ceadibc/featured'
     },
     {
-      name: 'Conteúdo 2',
-      description: 'Descrição do site 2'
+      name: 'BliendTec Oficial',
+      description: 'Canal com objetivo de comunicar acerca da tecnologia assistiva apra deficientes visuais.',
+      contentLink: 'https://www.youtube.com/@BlindTecOficial/streams'
     },
     {
-      name: 'Conteúdo 3',
-      description: 'Descrição do site 3'
+      name: 'Curso de Windows 11 com o NVDA',
+      description: 'Playlist com vídeos ensinando à navegar e utilizar o Windows 11 com NVDA.',
+      contentLink: 'https://www.youtube.com/playlist?list=PLP1oneJ9pfptAffLDhOznVAKlGYQYHvbl'
+    },
+    {
+      name: 'Curso de Microsoft Teams com o NVDA',
+      description: 'Playlist com vídeos ensinando à navegar e utilizar o Microsoft Teams com NVDA.',
+      contentLink: 'https://www.youtube.com/playlist?list=PLP1oneJ9pfpsDjgMk1oEgutjuhn38_wfD'
+    },
+    {
+      name: 'Configurando Emacs',
+      description: 'Playlist com intuito de orientar à configurar o Emacs.',
+      contentLink: 'https://www.youtube.com/playlist?list=PLOQgLBuj2-3I7w8JQvCY8lbbrUZL-gf4m'
     }
 ]
-const webSitesList = [
+  const webSitesList = [
   {
     name: 'Site',
-    description: 'Descrição do site'
+    description: 'Descrição do site',
+    siteLink: ''
   },
   {
     name: 'Site 2',
-    description: 'Descrição do site 2'
+    description: 'Descrição do site 2',
+    siteLink: ''
   },
   {
     name: 'Site 3',
-    description: 'Descrição do site 3'
+    description: 'Descrição do site 3',
+    siteLink: ''
   }
 ]
 
@@ -68,32 +85,33 @@ const webSitesList = [
       />
 
       <Section
-        sectionTitle="Conteúdos didáticos"
+        sectionTitle="Conteúdos de mídia didáticos"
         id="conteudos"
         description={
           <div>
             Esta seção possui cards contendo nome, descrição e botão de redirecionamento para o site de conteúdos 
             didáticos referentes à programação.
             <br/>
-            Os conteúdos didáticos podem redirecionar para sites próprios ou playlists de youtube que contenham 
+            Os conteúdos didáticos podem redirecionar para canais, playlists ou vídeos do youtube que contenham 
             vídeos com teor educacional acerca de assuntos que envolvam tecnologia acessiva ou programação.
           </div>
           }
           bgGrey
           >
             <div className="grid grid-cols-3 gap-10 p-10">
-              {contentList.map(content => {
+              {didaticContentsList.map(content => {
                 return <Card 
                 title={content.name} 
                 description={content.description} 
-                buttonTitle="Redirecionar ao site"
-                />
+                >
+                  <Button title="Redirecionar ao site" link={content.contentLink}/>
+                </Card>
               })}
             </div>
       </Section>
 
       <Section
-        sectionTitle="Sites"
+        sectionTitle="Sites didáticos"
         id="sites"
         description={
         <div>
@@ -110,7 +128,9 @@ const webSitesList = [
               title={content.name} 
               description={content.description} 
               buttonTitle="Redirecionar ao site"
-              />
+              >
+                <Button title="Redirecionar ao site" link={content.siteLink}/>
+              </Card>
             })}
           </div>
       </Section>
