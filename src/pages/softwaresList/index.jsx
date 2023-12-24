@@ -45,24 +45,38 @@ const SoftwaresList = () => {
     },
     {
       name: 'Jupyter Notebook',
-      description: 'Descrição do software 3',
+      description: 'Jupyter Notebook é um ambiente de desenvolvimento interativo que tem por grande usabilidade em Machine Learning (aprendizado de máquina) pois cria redes neurais. É muito utilizado por programadores Python e Cientistas de dados.',
       tutorial: 'Tutorial de instalação',
       siteLink: 'https://www.anaconda.com/download',
       tutorialLink: 'https://www.alura.com.br/artigos/conhecendo-o-jupyter-notebook'
     },
     {
       name: 'Git',
-      description: 'Descrição do software',
+      description: 'Git é é um sistema de controle de versão para projetos. Com o controle de versão, o git consegue registrar cada mudança efetuada dentro de um projeto individual ou coletivo, facilitanto o armazenamento e cooperatividade de um código.',
       tutorial: 'Tutorial de instalação',
       siteLink: 'https://git-scm.com/downloads',
       tutorialLink: 'https://git-scm.com/book/pt-br/v2/Começando-Instalando-o-Git'
     },
     {
       name: 'Python',
-      description: 'Descrição do software',
+      description: 'Python é uma linguagem de programação. É muito utilizada em projetos de ciência de dados, machine learning e sites web.',
       tutorial: 'Tutorial de instalação',
       siteLink: 'https://www.python.org/downloads/',
       tutorialLink: 'https://www.treinaweb.com.br/blog/instalacao-do-python-e-nosso-primeiro-ola-mundo'
+    },
+    {
+      name: 'Microsoft Teams',
+      description: 'Microsoft teams é um softwares responsável por integrar a colaboração para trabalho de times de longa distância, podendo efeturar video-chamadas entre pessoas de diversos lugares.',
+      tutorial: 'Tutorial de instalação',
+      siteLink: 'https://www.microsoft.com/pt-br/microsoft-teams/download-app#download-for-desktop',
+      tutorialLink: 'https://www.youtube.com/playlist?list=PLP1oneJ9pfpsDjgMk1oEgutjuhn38_wfD'
+    },
+    {
+      name: 'Postman',
+      description: 'Postman é uma ferramenta adequado para a realização de solicitações HTTP (get, post, update e delete) para APIs.',
+      tutorial: 'Tutorial de instalação',
+      siteLink: 'https://www.postman.com/downloads/',
+      tutorialLink: 'https://www.alura.com.br/artigos/postman-como-instalar-dar-seus-primeiros-passos#:~:text=Instalação%20no%20Windows,-Vamos%20iniciar%20pela&text=Para%20começar%20devemos%20acessar%20a,download%20do%20executável%20do%20programa.'
     }
 ]
 
