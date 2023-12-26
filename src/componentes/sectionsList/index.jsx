@@ -12,41 +12,67 @@ const SectionList = () => {
       contentLink: 'https://www.youtube.com/@ceadibc/featured'
     },
     {
-      name: 'BliendTec Oficial',
-      description: 'Canal com objetivo de comunicar acerca da tecnologia assistiva apra deficientes visuais.',
+      name: 'BlindTec Oficial',
+      description: 'Canal com objetivo de comunicar acerca da tecnologia assistiva para deficientes visuais.',
       contentLink: 'https://www.youtube.com/@BlindTecOficial/streams'
     },
     {
       name: 'Curso de Windows 11 com o NVDA',
-      description: 'Playlist com vídeos ensinando à navegar e utilizar o Windows 11 com NVDA.',
+      description: 'Playlist com vídeos ensinando a navegar e utilizar o Windows 11 com NVDA.',
       contentLink: 'https://www.youtube.com/playlist?list=PLP1oneJ9pfptAffLDhOznVAKlGYQYHvbl'
     },
     {
       name: 'Curso de Microsoft Teams com o NVDA',
-      description: 'Playlist com vídeos ensinando à navegar e utilizar o Microsoft Teams com NVDA.',
+      description: 'Playlist com vídeos ensinando a navegar e utilizar o Microsoft Teams com NVDA.',
       contentLink: 'https://www.youtube.com/playlist?list=PLP1oneJ9pfpsDjgMk1oEgutjuhn38_wfD'
     },
     {
       name: 'Configurando Emacs',
-      description: 'Playlist com intuito de orientar à configurar o Emacs.',
+      description: 'Playlist com intuito de orientar a configurar o Emacs.',
       contentLink: 'https://www.youtube.com/playlist?list=PLOQgLBuj2-3I7w8JQvCY8lbbrUZL-gf4m'
     }
 ]
   const webSitesList = [
   {
-    name: 'Site',
-    description: 'Descrição do site',
-    siteLink: ''
+    name: 'BlindTec',
+    description: 'O site da BlindTec visa a organização de conteúdos de tecnologia didáticos e acessíveis para deficientes visuais.',
+    siteLink: 'https://www.blindtec.com.br/blog/'
   },
   {
-    name: 'Site 2',
-    description: 'Descrição do site 2',
-    siteLink: ''
+    name: 'Acessibilidade Legal',
+    description: 'O site Acessibilidade Legal reúne tópicos acerca da acessibilidade sobre a tecnologia web.',
+    siteLink: 'http://www.acessibilidadelegal.com/13-landmarks.php'
   },
   {
-    name: 'Site 3',
-    description: 'Descrição do site 3',
-    siteLink: ''
+    name: 'Manual de uso NVDA',
+    description: 'Este tópico se trata de um manual acerca do NVDA.',
+    siteLink: 'https://www.guarapari.es.gov.br/pagina/ler/2078/acessibilidade-leitor-de-tela-nvda'
+  },
+  {
+    name: 'Manual do EmacSpeak',
+    description: 'Este tópico reúne informações diversas sobre tópicos do EmacSpeak.',
+    siteLink: 'https://tvraman-github-io.translate.goog/emacspeak/manual/?_x_tr_sl=en&_x_tr_tl=pt-PT&_x_tr_hl=pt-PT&_x_tr_pto=tc'
+  },
+  {
+    name: 'Sites diversos recomendados pela BlindTec',
+    description: 'Listagem de variedades de sites úteis disponibilizados pela BlindTec.',
+    siteLink: 'https://www.blindtec.com.br/blog/sites-uteis/'
+  },
+  {
+    name: 'Dicas de acessibilidade do Visual Studio',
+    description: 'Este tópico visa a exposição de dicas de acessibilidade para o Visual Studio.',
+    siteLink: 'https://learn.microsoft.com/pt-br/visualstudio/ide/reference/accessibility-tips-and-tricks?view=vs-2022'
+  }
+  ,
+  {
+    name: 'HandTalk',
+    description: 'O site da Hand Talk abrange temas sobre acessibilidade.',
+    siteLink: 'https://www.handtalk.me/br/ajudaacessibilidade/#navbar'
+  },
+  {
+    name: 'Blog oficial do Emacspeak',
+    description: 'Blog oficial do Emacspeak (com idioma em inglês).',
+    siteLink: 'https://emacspeak.blogspot.com'
   }
 ]
 
@@ -115,7 +141,7 @@ const SectionList = () => {
         id="sites"
         description={
         <div>
-          A seguir segue uma lista de card para sites que seguem como referência sobre acessibilidade tecnológica 
+          A seguir segue uma lista de card para sites ou tópicos de sites que seguem como referência sobre acessibilidade tecnológica 
           para deficientes visuais. Cada card terá o nome do site em cima seguido abaixo de uma breve
           descrição acerca do objetivo principal dele mais um botão de redirecionamento de link.
         </div>
@@ -126,8 +152,7 @@ const SectionList = () => {
             {webSitesList.map(content => {
               return <Card 
               title={content.name} 
-              description={content.description} 
-              buttonTitle="Redirecionar ao site"
+              description={content.description}
               >
                 <Button title="Redirecionar ao site" link={content.siteLink}/>
               </Card>
