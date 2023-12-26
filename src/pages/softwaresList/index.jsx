@@ -44,6 +44,13 @@ const SoftwaresList = () => {
       tutorialLink: 'https://algol.dev/eclipse-ide-instalar-java-windows/'
     },
     {
+      name: 'Visual Studio',
+      description: 'Visual Studio é uma IDE abrangente para desenvolvedores .NET e C++. É muito utilizada para criação web, desktop, jogos e aplicativos móveis.',
+      tutorial: 'Tutorial de instalação',
+      siteLink: 'https://visualstudio.microsoft.com/pt-br/downloads/',
+      tutorialLink: 'https://univirtuscdn.uninter.com/public/cma/tutorial_visual_studio.pdf'
+    },
+    {
       name: 'Jupyter Notebook',
       description: 'Jupyter Notebook é um ambiente de desenvolvimento interativo que tem por grande usabilidade em Machine Learning (aprendizado de máquina) pois cria redes neurais. É muito utilizado por programadores Python e Cientistas de dados.',
       tutorial: 'Tutorial de instalação',
@@ -52,7 +59,7 @@ const SoftwaresList = () => {
     },
     {
       name: 'Git',
-      description: 'Git é é um sistema de controle de versão para projetos. Com o controle de versão, o git consegue registrar cada mudança efetuada dentro de um projeto individual ou coletivo, facilitanto o armazenamento e cooperatividade de um código.',
+      description: 'Git é um sistema de controle de versão para projetos. Com o controle de versão, o git consegue registrar cada mudança efetuada dentro de um projeto individual ou coletivo, facilitanto o armazenamento e cooperatividade de um código.',
       tutorial: 'Tutorial de instalação',
       siteLink: 'https://git-scm.com/downloads',
       tutorialLink: 'https://git-scm.com/book/pt-br/v2/Começando-Instalando-o-Git'
@@ -66,14 +73,14 @@ const SoftwaresList = () => {
     },
     {
       name: 'Microsoft Teams',
-      description: 'Microsoft teams é um softwares responsável por integrar a colaboração para trabalho de times de longa distância, podendo efeturar video-chamadas entre pessoas de diversos lugares.',
+      description: 'Microsoft teams é um software responsável por integrar a colaboração para trabalho de times à longa distância, podendo efetuar videochamadas entre pessoas de diversos lugares.',
       tutorial: 'Tutorial de instalação',
       siteLink: 'https://www.microsoft.com/pt-br/microsoft-teams/download-app#download-for-desktop',
       tutorialLink: 'https://www.youtube.com/playlist?list=PLP1oneJ9pfpsDjgMk1oEgutjuhn38_wfD'
     },
     {
       name: 'Postman',
-      description: 'Postman é uma ferramenta adequado para a realização de solicitações HTTP (get, post, update e delete) para APIs.',
+      description: 'Postman é uma ferramenta adequada para a realização de solicitações HTTP (get, post, update e delete) para APIs.',
       tutorial: 'Tutorial de instalação',
       siteLink: 'https://www.postman.com/downloads/',
       tutorialLink: 'https://www.alura.com.br/artigos/postman-como-instalar-dar-seus-primeiros-passos#:~:text=Instalação%20no%20Windows,-Vamos%20iniciar%20pela&text=Para%20começar%20devemos%20acessar%20a,download%20do%20executável%20do%20programa.'
