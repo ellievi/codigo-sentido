@@ -62,7 +62,7 @@ const SoftwaresList = () => {
       description: 'Git é um sistema de controle de versão para projetos. Com o controle de versão, o git consegue registrar cada mudança efetuada dentro de um projeto individual ou coletivo, facilitanto o armazenamento e cooperatividade de um código.',
       tutorial: 'Tutorial de instalação',
       siteLink: 'https://git-scm.com/downloads',
-      tutorialLink: 'https://git-scm.com/book/pt-br/v2/Começando-Instalando-o-Git'
+      tutorialLink: 'https://www.hostinger.com.br/tutoriais/tutorial-do-git-basics-introducao'
     },
     {
       name: 'Python',
