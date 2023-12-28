@@ -90,7 +90,7 @@ const SectionList = () => {
           Partindo deste pressuposto, a acessibilidade e oportunidade de estudo e ingressão de pessoas PcD no ramo tecnológico, 
           sobretudo os relacionados à programação, precisam ser ampliadas vigorosamente. Para os deficientes visuais, o estudo e trabalho 
           com desenvolvimento de códigos pode tornar-se muito mais aproveitado e divulgado com as tecnologias já existentes 
-          e as próximas que podem vir
+          e as próximas que podem vir.
         </div>
         }
         bgGrey
@@ -100,10 +100,11 @@ const SectionList = () => {
         sectionTitle="Softwares"
         description={
         <div>
-          Ao clicar no botão você será direcionado para a página com a seção da lista dos softwares mais atuantes no mercado para 
-          auxílio de manuseio de computador para deficientes visuais. Cada bloco de software listado terá uma breve descrição 
-          da sua função e logo abaixo botões que redirecionam para acessar o site fonte e efetuar o download do sotware, 
-          bem como, se necessário, sites de orientação para instalação ou configuração.
+          Ao clicar no botão abaixo você será direcionado para a página com a seção de lista de softwares mais 
+          atuantes no mercado para auxílio de manuseio de diversas ferramentas de tecnologia envolvendo o mundo da programação 
+          para deficientes visuais. Cada bloco de software listado terá uma breve descrição da sua função e logo 
+          abaixo botões que redirecionam para acessar o site fonte e efetuar o download do software, bem como, 
+          sites de orientação para instalação ou configuração do mesmo.
         </div>
         }
         buttonTitle="Ir para lista de softwares"
@@ -116,10 +117,10 @@ const SectionList = () => {
         description={
           <div>
             Esta seção possui cards contendo nome, descrição e botão de redirecionamento para o site de conteúdos 
-            didáticos referentes à programação.
+            de mídia didáticos referentes à programação.
             <br/>
             Os conteúdos didáticos podem redirecionar para canais, playlists ou vídeos do youtube que contenham 
-            vídeos com teor educacional acerca de assuntos que envolvam tecnologia acessiva ou programação.
+            objetivo educacional acerca de assuntos que envolvam tecnologia acessiva ou programação.
           </div>
           }
           bgGrey
@@ -141,9 +142,9 @@ const SectionList = () => {
         id="sites"
         description={
         <div>
-          A seguir segue uma lista de card para sites ou tópicos de sites que seguem como referência sobre acessibilidade tecnológica 
-          para deficientes visuais. Cada card terá o nome do site em cima seguido abaixo de uma breve
-          descrição acerca do objetivo principal dele mais um botão de redirecionamento de link.
+          A seguir segue uma lista de cards para sites ou tópicos de sites que seguem como referência sobre acessibilidade tecnológica 
+          para deficientes visuais. Cada card terá o nome do site seguido abaixo de uma breve
+          descrição acerca do objetivo principal dele mais um botão de redirecionamento para link do site.
         </div>
         }
         card

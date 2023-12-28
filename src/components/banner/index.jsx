@@ -11,7 +11,7 @@ const Banner = () => {
         <span className="text-light-blue">educação acessível</span>
         </h1>
         <h2 className="text-xl	text-slate-200">A Código sentido possui planos para auxiliar na expansão da educação tecnológica 
-          à programação para deficientes visuais
+          à programação para deficientes visuais reunindo conteúdos didáticos existentes que visam contribuir com a tecnologia assistiva.
         </h2>
           <a href="#sobre">
           <Button title="Ler mais sobre o projeto"/>

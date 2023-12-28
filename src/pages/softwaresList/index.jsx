@@ -1,9 +1,9 @@
 import React from "react";
-import Section from "../../componentes/section";
-import Card from "../../componentes/card";
-import Menu from "../../componentes/menu";
-import Footer from "../../componentes/footer";
-import Button from "../../componentes/button";
+import Section from "../../components/section";
+import Card from "../../components/card";
+import Menu from "../../components/menu";
+import Footer from "../../components/footer";
+import Button from "../../components/button";
 
 const SoftwaresList = () => {
 

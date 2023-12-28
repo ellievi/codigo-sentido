@@ -1,7 +1,6 @@
 import React from "react";
 import LogoCodigoSentido from '../../assets/logo_codigo_sentido.svg'
 import { Link } from "react-router-dom";
-import Search from "../search";
 
 const Menu = () => {
   return (
@@ -9,9 +8,6 @@ const Menu = () => {
       <ul className="flex flex-row justify-center gap-12 py-8">
         <li>
           <Link to="/">Início</Link>    
-        </li>
-        <li>
-          <a href="#sobre">Sobre</a>
         </li>
         <li>
           <Link to="/lista_de_softwares" onClick={window.history.pushState("", "", "/")}>Softwares</Link>          
@@ -28,9 +24,6 @@ const Menu = () => {
         </li>
         <li>
           <a href="#sites">Sites</a>
-        </li>
-        <li>
-          <Search/>
         </li>
       </ul>
     </div>

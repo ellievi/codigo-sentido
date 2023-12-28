@@ -1,7 +1,7 @@
-import Menu from '../../componentes/menu';
-import Banner from '../../componentes/banner';
-import SectionList from '../../componentes/sectionsList';
-import Footer from '../../componentes/footer';
+import Menu from '../../components/menu';
+import Banner from '../../components/banner';
+import SectionList from '../../components/sectionsList';
+import Footer from '../../components/footer';
 
 const Home = () => {
   return (
