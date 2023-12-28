@@ -44,6 +44,11 @@ const SectionList = () => {
     siteLink: 'http://www.acessibilidadelegal.com/13-landmarks.php'
   },
   {
+    name: 'ChromeVox',
+    description: 'ChromeVox é um leitor de tela para o google chrome. Para baixa-lo é necessário clicar no botão "Usar no chrome" e depois em "Adicionar Extensão". Caso queira desativar a extensão é preciso ir ao Gerenciador de Extensões presente no menu do google.',
+    siteLink: 'https://chromewebstore.google.com/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=pt-BR&utm_source=ext_sidebar'
+  },
+  {
     name: 'Manual de uso NVDA',
     description: 'Este tópico se trata de um manual acerca do NVDA.',
     siteLink: 'https://www.guarapari.es.gov.br/pagina/ler/2078/acessibilidade-leitor-de-tela-nvda'
