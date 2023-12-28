@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Menu = () => {
   return (
     <div className="max-h-28 text-2xl text-white">
-      <ul className="flex flex-row justify-center gap-12 py-8">
+      <ul role="navigation" className="flex flex-row justify-center gap-12 py-8">
         <li>
           <Link to="/">Início</Link>    
         </li>
