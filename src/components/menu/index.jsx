@@ -7,10 +7,10 @@ const Menu = () => {
     <div className="max-h-28 text-2xl text-white">
       <ul role="navigation" className="flex flex-row justify-center gap-12 py-8">
         <li>
-          <Link to="/">Início</Link>    
+          <Link to="/codigo-sentido">Início</Link>    
         </li>
         <li>
-          <Link to="/lista_de_softwares" onClick={window.history.pushState("", "", "/")}>Softwares</Link>          
+          <Link to="/codigo-sentido/lista_de_softwares" onClick={window.history.pushState("", "", "/")}>Softwares</Link>          
         </li>
         <img
         className="w-72"
@@ -20,10 +20,10 @@ const Menu = () => {
         à direta escontra-se o símbolo de chave muito presente na matemática e possui a mesma cor da palavra ''código''."
         />
         <li>
-          <a href="#conteudos">Conteúdos</a>
+          <a href="/codigo-sentido/#conteudos">Conteúdos</a>
         </li>
         <li>
-          <a href="#sites">Sites</a>
+          <a href="/codigo-sentido/#sites">Sites</a>
         </li>
       </ul>
     </div>

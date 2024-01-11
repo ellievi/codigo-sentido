@@ -113,7 +113,7 @@ const SectionList = () => {
         </div>
         }
         buttonTitle="Ir para lista de softwares"
-        link="/lista_de_softwares"
+        link="/codigo-sentido/lista_de_softwares"
       />
 
       <Section
