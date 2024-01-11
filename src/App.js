@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App bg-gradient-purple">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="lista_de_softwares" element={<SoftwaresList />} />
+        <Route path="/codigo-sentido" element={<Home />} />
+        <Route path="/codigo-sentido/lista_de_softwares" element={<SoftwaresList />} />
       </Routes>
     </div>
   );
