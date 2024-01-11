@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/codigo-sentido/static/css/main.e6b7dcac.css",
-    "main.js": "/codigo-sentido/static/js/main.fb1e59aa.js",
+    "main.js": "/codigo-sentido/static/js/main.8b3748ee.js",
     "static/media/banner_image.svg": "/codigo-sentido/static/media/banner_image.13d8ba1c319a743e7452f148457a1188.svg",
     "static/media/logo_codigo_sentido.svg": "/codigo-sentido/static/media/logo_codigo_sentido.2c7588669534e21095363e1b609aa463.svg",
     "index.html": "/codigo-sentido/index.html",
     "main.e6b7dcac.css.map": "/codigo-sentido/static/css/main.e6b7dcac.css.map",
-    "main.fb1e59aa.js.map": "/codigo-sentido/static/js/main.fb1e59aa.js.map"
+    "main.8b3748ee.js.map": "/codigo-sentido/static/js/main.8b3748ee.js.map"
   },
   "entrypoints": [
     "static/css/main.e6b7dcac.css",
-    "static/js/main.fb1e59aa.js"
+    "static/js/main.8b3748ee.js"
   ]
 }
