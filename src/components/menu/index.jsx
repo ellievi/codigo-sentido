@@ -10,7 +10,7 @@ const Menu = () => {
           <Link to="/codigo-sentido">Início</Link>    
         </li>
         <li>
-          <Link to="/codigo-sentido/lista_de_softwares" onClick={window.history.pushState("", "", "/")}>Softwares</Link>          
+          <Link to="/codigo-sentido/lista_de_softwares">Softwares</Link>          
         </li>
         <img
         className="w-72"
