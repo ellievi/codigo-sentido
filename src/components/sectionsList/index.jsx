@@ -112,9 +112,9 @@ const SectionList = () => {
           sites de orientação para instalação ou configuração do mesmo.
         </div>
         }
-        buttonTitle="Ir para lista de softwares"
-        link="/codigo-sentido/lista_de_softwares"
-      />
+      >
+        <Button title="Ir para lista de softwares" link="/codigo-sentido/lista_de_softwares" samePage/>
+      </Section>
 
       <Section
         sectionTitle="Conteúdos de mídia didáticos"
