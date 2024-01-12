@@ -113,7 +113,7 @@ const SectionList = () => {
         </div>
         }
       >
-        <Button title="Ir para lista de softwares" link="/codigo-sentido/lista_de_softwares" samePage/>
+        <Button isRouteLink/>
       </Section>
 
       <Section
